@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Estilos basicos HTML</title>
+		<link rel="stylesheet" href="C:\Users\admin\Downloads\Ejercicios HTML\a.css">
+		
+	</head>
+	<body>
+		<h1>Formulario de reserva</h1>
+		<form action="#" method="post" enctype="multipart/form-data">
+			<fieldset class="personales">
+				<legend>Datos personales</legend>
+				<label for="nombre">Nombre</label>
+				<input id="nombre" type="text" name="apellido">
+				<label for="apellido">Apellido</label>
+				<input id="apellido" type="text" name="apellido">
+				<label for="tel"> Teléfono</label>  <br>
+				<input title="pon aqui 9 numeros" id="tel" type="tel" name="tel">
+				<label for="email"> Correo</label>
+				<input id="email" type="email" name="email"> 
+			</fieldset>
+			<br>
+			<fieldset class="reserva">
+				<legend>Datos de la reserva</legend>
+				<label for="date"> Fecha de entrada</label> 
+				<input id="date" type="date" name="date"> <br>
+				<label for="radio">Tipo de habitación:</label> <br>
+				<input type="radio" name="habitacion" value ="1" checked> Doble
+				<input type="radio" name="habitacion" value ="2"> Matrimonio
+				<input type="radio" name="habitacion" value ="3"> Individual <br> 
+				<label for="number"> Número de noches</label>
+				<input id="number" type="number" name="number" value="2" min="0" max="30" required>
+			</fieldset>
+			<br>
+			<fieldset class="preferencias">
+				<legend>Preferencias</legend>
+				Desayuno <input id="checkbox1" type="checkbox" name="checkbox1" value="opcion1" > 
+				Comida <input id="checkbox2" type="checkbox" name="checkbox2" value="opcion2" > 
+				Cena  <input id="checkbox3" type="checkbox" name="checkbox3" value="opcion3" >  <br> 
+				Cama supletoria <input id="checkbox4" type="checkbox" name="checkbox4" value="opcion4" >  <br> 
+				<label for="coches"> Coches</label>
+				<input id="coches" type="number" name="coches" min="0" max="30" placeholder="0"> <br> 
+				<textarea  rows="4" cols="40" placeholder="Otras preferencias" name="text_largo" id="textarea"></textarea>
+			</fieldset>
+		</form>
+		</body>
+		<br>
+		<input type="submit" value="Enviar">			
+		<input type="reset" value="Limpiar">
+
+	</html>			

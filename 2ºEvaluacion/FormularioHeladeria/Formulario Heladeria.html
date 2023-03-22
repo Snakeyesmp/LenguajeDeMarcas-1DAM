@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang=es>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario Heladeria</title>
+		<link href="FormularioHeladeria.css" rel="stylesheet">
+	</head>
+	<body>
+		<form>
+			<h1>Heladería</h1>
+			
+			<h3>Añade un producto</h3>
+			
+			<label for="Categoria">Categoría:</label> <br>
+			<select id="Categoria" name="categoria" required>
+				<option value="">Selecciona categoria ...</option>
+				<option value="Helado">Helado</option>	
+				<option value="Tarta">Tarta</option>
+			</select>
+			<br>
+			<label for="sabor">Sabor:</label> <br>
+			<input id="sabor" type="text" name="sabor" class="input" required> <br>
+			
+			<label for ="cantidad" >Cantidad:</label> <br> 
+			<input id="cantidad" type="number" class="input" min=1 max=100 required name="cantidad"> <br>
+			
+			<input id="pequeño"type="radio" name="size" value="opcion1" ><label for="pequeño">Pequeño(2) </label> 
+			<input id="mediano"  type="radio" name="size" value="opcion2" ><label for="mediano">Mediano (5)</label>   
+			<input id="grande"   type="radio" name="size" value="opcion3"><label for="grande">Grande (7)</label>   <br>
+			
+			<strong>Complementos:</strong><br>
+			<input id="mani" type="checkbox" name="mani" value="mani" selected><label for="mani">Maní </label>  <br>
+			<input id="chocolate" type="checkbox" name="chocolate" value="chocolate" ><label for="chocolate">Chispas de Chocolate</label> <br>
+			<input id="chispas" type="checkbox" name="chispas" value="chispas" > <label for="chispas">Chispas de colores</label> <br>
+			<input id="leche" type="checkbox" name="leche" value="leche" ><label for="leche">Leche condensada</label> <br>
+			
+			<input class="button" type="submit"> <br>
+			<input class="button" type="reset" value="Borrar">
+		</form>
+	</body>
+</html>

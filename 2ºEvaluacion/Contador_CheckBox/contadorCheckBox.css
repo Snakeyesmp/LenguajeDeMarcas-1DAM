@@ -1,0 +1,85 @@
+/* CONTADORES*/
+:root{
+	counter-reset: sin_marcar;
+	counter-reset: marcados;
+}
+
+input[type="checkbox"]:checked{
+	counter-increment:marcados;
+}
+
+input[type="checkbox"]:not(:checked) {
+	counter-increment: sin_marcar;
+}
+
+.TotalChecked:after {
+	content: counter(marcados);
+}
+
+.TotalUnchecked:after {
+	content: counter(sin_marcar);
+}
+
+/*Parte del grid*/
+.grid{
+	display:grid;
+	grid-template-columns: auto auto;
+	grid-row-gap: 12px;
+	justify-content:center;
+	border: 5px solid;
+	border-image: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%) 1;
+	width: 280px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.total {
+	grid-row: 1;
+	grid-column: 1/3;
+}
+
+/*DECORACION*/
+body{
+	font-family: "Arial";
+	color:navy;
+	font-size:13pt;
+}
+
+input[type="checkbox"]::after{
+	display: block;
+	content:"";
+	width: 15px;
+	height:15px;
+	background-color:white;
+	color:navy;
+	border: 1px solid navy;
+	text-align:center;
+	margin-left:8px;
+}
+
+input[type="checkbox"]:checked::after{
+	content:"✔";
+	background-color:gold;
+}
+
+.total {
+	margin: 5px auto;
+	width: 155px;
+}
+
+.total span{
+	background-color:gold;
+	display: inline-block;
+	margin-bottom: 3px;
+	padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+

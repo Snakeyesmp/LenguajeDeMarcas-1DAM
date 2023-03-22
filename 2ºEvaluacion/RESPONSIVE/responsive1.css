@@ -1,0 +1,47 @@
+*{
+	font-family:"comic sans MS";
+	text-decoration:underline;
+	
+}
+
+
+@media screen and (min-width:600px){
+	
+	div{
+		width:30%;
+		float:left;
+		margin-left:10%;
+	}
+	
+	.uno{
+		background-color:blue;
+	}
+	
+	.dos{
+		background-color:yellow;
+	}
+	
+}
+@media screen and (max-width:600px){
+	div{
+		width:95%;
+		margin:0 auto;
+	}
+	
+	
+	
+	.uno{
+		color:blue;
+	}
+	
+	.dos{
+		color:yellow;
+	}
+}
+
+@media print and (orientation:landscape){ /* Selector que solo se aplica cuando le das a imprimir, y en orientación horizontal*/
+	*{
+		font-family:serif;
+		text-decoration:none;
+	}
+}

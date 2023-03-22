@@ -1,0 +1,30 @@
+#indice{
+	background-color:lightblue;
+	position:absolute;
+	top:20%;
+	width:20%;
+	height:70%;
+}
+
+ul{
+	padding-left:85px;
+}
+
+#contenido {
+	position:absolute;
+	top:20%;
+	left:25%;
+	background-color: orange;
+	height:70%;
+	width:80%;
+	overflow:scroll;
+}
+
+.enlace{
+	text-align:right;
+}
+
+#contenido div{
+	width:100%;
+	height:100%;
+}

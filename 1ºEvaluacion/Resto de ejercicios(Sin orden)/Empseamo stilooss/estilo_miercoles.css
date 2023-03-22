@@ -1,0 +1,81 @@
+*{ 
+}
+
+span{						
+	
+}
+#estilo1{	
+	
+}
+#estilo2{
+	
+}
+estilo_class{
+	
+}
+
+p b i span{
+	
+	
+}
+h1,p,span{
+	
+}
+span.estilo_class{
+	
+}	
+p > b{
+	
+}
+p + b{
+	
+}
+
+/* selectores de atributo */
+[style]{
+	
+}
+[style= "color:green"]{
+		
+}
+
+[class~ ="valor3"]{
+	
+}
+
+/* Selectores de pseudoclases */
+
+p:first-line{
+
+	text-decoration:underline;
+	font-family:"comic sans MS";
+
+}
+
+p:first-letter{
+
+	
+}
+
+p:hover{
+	background-color:yellow;
+	
+}
+
+p:active{
+	color:red
+	
+}
+p:after{
+	content:"Añadido después del párrafo...";
+	
+}
+p:before{
+	content:"Texto antes del párrafo";
+		
+}
+
+p:link{}
+p:visited{}
+
+

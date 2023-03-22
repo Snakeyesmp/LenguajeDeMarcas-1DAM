@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Información alumnado</title>
+		<meta charset="UTF-8">  <!-- Eliges el lenguaje para que no haya problemas de compatibilidad con símbolos como la ñ --> 
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="languaje" content="idioma">
+		<meta name= "description" content="primera página de ejemplo">
+		<meta name="email" content="unemail@ejemplo.es">
+		<meta name="keywords" content="dam1, HTML, css"> <!-- Palabras cable que usará el motor de búsqueda para posicionar la página--> 
+		<meta name="copyright" content="tipo de copyright que tenga">
+<!--	<meta http-equiv="refresh" content="2; URL=https://www.google.es/"> --> <!-- La pagina se refresca cada 2 segundos y se abre una URL --> 
+		
+		<link href="estilo1.css" rel="stylesheet"> <!-- Esto es para ejecutar el fichero de JavaScript--> 
+		
+<!--	<script type="text/javascript" src="ej1.js"> --> <!-- Esto es para ejecutar el fichero de JavaScript -->
+		
+		</script>
+		 
+		<link rel="shortcut icon" href="html.png"> <!--Esto es para cambiar el icono de la página web en la barra de pestañas -->
+		
+	</head>
+	<body>
+	
+		<h1>Datos del alumno</h1>
+		
+			<h2>Nombre</h2>
+				<p>Mario Muñoz Pequeño</p>
+				
+			<h2>Estudios</h2>	
+				<p> Grado superior automatización y robótica industrial </p>
+				
+			<h2>Teléfono de contacto</h2>	
+				<p>601367130</p>
+			
+			<h2>Ciudad de residencia</h2>
+				<p>Valladolid</p>
+<!--	<pre> Este comando sirve para representar tal cual está en el código texto en la página </pre>  -->
+	</body>
+</html>

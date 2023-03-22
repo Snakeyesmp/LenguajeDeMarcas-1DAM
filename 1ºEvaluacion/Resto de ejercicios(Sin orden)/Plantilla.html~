@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang=es>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Tamaños con css</title>
+	</head>
+	
+	
+	<body>
+		<p>Esto es un párrafo normal</p>
+		<p style="font-size:40px">Esto está a un tamaño de 40px</p>
+		<p style="font-size:small">Esto está a un tamaño small</p>
+		<p style="font-size:large">Esto está a un tamaño large</p>
+		<p style="font-size:xx-large">Esto está a un tamaño xx-large</p>
+		<p style="font-size:xx-small">Esto está a un tamaño xx-small</p>
+		<p style="font-size:5%">Esto está a un tamaño de 5%/p>
+		<p style="font-size:40%">Esto está a un tamaño 40%</p>
+		<p style="font-size:80%">Esto está a un tamaño 80%</p>	
+		<p style="font-size:200%">Esto está a un tamaño 200%</p>
+		<p style="font-size:300%">Esto está a un tamaño 300%</p>
+		
+		
+		<p style="font-size:2cm;">Esto está a un tamaño 2 centimetros</p>
+		<p style="font-size:0.5in">Esto está a un tamaño 0.5 pulgadas</p>
+		
+		
+		<p style="font-size:em">Esto está a un tamaño em</p>	
+		<p style="font-size:3em">Esto está a un tamaño 3em</p>
+		<p style="font-size:ex">Esto está a un tamaño ex</p>
+		<p style="font-size:3ex">Esto está a un tamaño 3ex</p>
+		
+		
+		<h1 style="font-size:large" "font-weight:normal">Titulo h1 normal</h1>
+		<h1 style="font-weight:normal">Titulo h1 sin negrita</h1>
+		
+		
+		<p style="color:blue">Texto de color azul</p>
+		<p style="color:rgb(128,255,00)">Texto de color verde</p>
+		<p style="color:rgb(0,0,0)">Texto de color negro</p>
+		<p style="color:rgb(0,0,255)">Texto de color azul</p>
+		<p style="color:rgb(255,255,0)">Texto de color amarillo</p>
+		<p style="color:rgb(0,255,0)">Texto de color verde</p>
+		<p style="color:rgb(255,0,0)">Texto de color rojo</p>
+		<p style="color:brown">Texto de color marrón</p>
+		<p style="color:pink">Texto de color rosa</p>
+		<p style="color:grey">Texto de color gris</p>
+		<p style="color:#81FF00">Texto verde hexadecimal</p>
+		
+		
+		
+		
+	</body>
+	
+</html>

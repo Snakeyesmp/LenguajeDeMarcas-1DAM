@@ -1,0 +1,36 @@
+/* *::selection{
+	color:blue;
+}  Selector para lo que tienes seleccionado con el cursor en ese momento*/ 
+
+.grid-container{
+	display:grid;
+	grid-template-areas: 
+	'header header header header'
+	'menu main main right'
+	'footer footer footer footer';
+	background-color:rgba(107,29,56,0.5);
+	padding:30px;
+	gap:10px;
+}
+.item1{grid-area:header;}
+.item2{grid-area:menu;}
+.item3{grid-area:main;}
+.item4{grid-area:right;}
+.item5{grid-area:footer;}
+
+.grid-container > div{
+	background-color:pink;
+	text-align:center;
+	padding:20px 0;
+	font-size:30px;
+}
+
+.item3{
+	height:100px;
+}
+
+.item3 *{
+	color:white;
+	background-color:rgba(107,29,56,0.1);
+}
+

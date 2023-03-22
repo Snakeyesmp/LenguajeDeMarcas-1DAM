@@ -1,0 +1,15 @@
+.flex-container{
+	background-color:blue;
+	display:flex;
+	flex:wrap;
+	
+}
+
+.box{
+	background-color:coral;
+	width:45%;
+	margin:10px;
+	text-align:center;
+	font-size:30px;
+	line-height:80px;
+}

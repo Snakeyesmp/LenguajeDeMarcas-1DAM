@@ -1,0 +1,45 @@
+p{
+	/*tipografía
+		color:green;
+		font-family:"04b 30"; 
+		
+		font-size:20px;	font-weight:bold; font-style:oblique;  font-variant:small-caps; todas las letras en mayuscula pequeña 
+		
+		font:"04b 30" 20px bold italic small-caps 	||Tienen que estar en un orden específico
+		
+		Decoración de texto 
+		
+		
+		text-decoration:underline;
+		text-transform:uppercase; todas las letras en mayuscula 
+		text-transform:lowercase;
+		text-indent:40px;
+		line-height:20px;
+		letter-spacing:5px;
+		word-spacing:10px;
+	white-space:pre-line; */
+	
+}
+
+p{
+	border:3px yellow solid;
+	margin:30px;
+	
+}
+	
+	
+	span,b,ol,h1{
+	
+	
+	/*	display:inline;   Hacer bloque lineas  */
+		padding:10px;
+		border:3px green solid;
+		margin:20px;
+		
+	}
+	
+	
+	
+	
+	
+}

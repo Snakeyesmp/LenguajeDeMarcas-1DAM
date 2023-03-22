@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang=es>
+	<head>
+		<meta charset="utf-8">
+		<title>Estilos basicos HTML</title>
+		<link href="basicos1.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<form action="#" method="get" enctype="multipart/form-data">
+			<fieldset style ="width:400px"> <!-- Rodear con un cuadrado todo lo que haya dentro de la etiqueta -->
+				<legend>datos personales</legend> <!-- Texto que corta el cuadro, como un titulo -->
+				<label for="nombre">Introduce tu nombre:</label>
+				<input id="nombre" type="text" name="nom_var"> <br>
+				
+				<label for="pass">Introduce tu password:</label>
+				
+				<input id="pass" type="password" name="pass"> <br>
+				
+				<label for="email"> introduce tu email:</label>
+				<input id="email" disabled type="email" name="email"> <br>
+				
+				<label for="tel"> Introduce tu telefono:</label>
+				<input title="pon aqui 9 numeros" readonly placeholder="Introduzca 9 numeros seguidos" id="tel" type="tel" name="tel" pattern="^[0-9]{3}-[0-9]{6}$"> <br>
+				
+				<label for="date"> Introduce tu fecha:</label>
+				<input id="date" type="date" name="date"> <br>
+				
+				<label for="color"> Introduce color:</label>
+				<input id="color" type="color" name="color"> <br>
+				
+				<label for="time"> Introduce tiempo:</label>
+				<input id="time" type="time" name="time"> <br>
+			</fieldset> 
+			<fieldset>
+				<legend>Datos personales 2</legend>
+				<label for="month"> Introduce mes:</label>
+				<input id="month" type="month" name="month"> <br>
+				
+				<label for="week"> Introduce semana:</label>
+				<input id="week" type="week" name="week"> <br>
+				
+				<label for="datetime-local"> Introduce fecha completa:</label>
+				<input id="datetime-local" type="datetime-local" name="datetime-local"> <br>
+				
+				<label for="range"> BarraDeslizadora:</label>
+				<input id="range" type="range" min="0" max="100" step="1" name="range"> <br>
+				
+				<label for="number"> Campo numérico:</label>
+				<input id="number" type="number" step="2" name="number"> <br>
+			</fieldset>
+			<label for="file"> Introduce tiempo:</label>
+			<input id="file" type="file" name="file"> <br>
+			
+			<textarea rows="4" cols="40" name="text_largo" id="textarea"> </textarea> <br>
+			
+			
+			<label for="checkbox"> Marca opcion </label> <br>
+			<input id="checkbox1" type="checkbox" name="checkbox1" value="opcion1" selected> opcion 1  <br>
+			<input id="checkbox2" type="checkbox" name="checkbox2" value="opcion2" > opcion 2  <br>
+			<input id="checkbox3" type="checkbox" name="checkbox3" value="opcion3" > opcion 3  <br>
+			<input id="checkbox4" type="checkbox" name="checkbox4" value="opcion4" > opcion 4  <br>
+			
+			
+			<label for="radio">Marca una única opción</label> 	<br>
+			<input type="radio" required name="radio" value ="1" selected> opcion radio 1 	<br>
+			<input type="radio" name="radio" value ="2"> opcion radio 2 	<br>
+			<input type="radio" name="radio" value ="3"> opcion radio 3 	<br>
+			<input type="radio" name="radio" value ="4"> opcion radio 4   	<br>
+			
+			<select name ="select[]" multiple size="5" >  <!-- con los corchetes creas un array, porque multiple te intenta guardar varios valores en la misma variable   -->
+				<optgroup label="Castilla y Leon"> <!-- Agrupar opciones para que salgan con un titulo arriba, ayuda visual -->
+					<option value="va">Valladolid </option>
+					<option value="ma">Madrid </option>
+					<option value="sa">Salamanca </option>
+				</optgroup>
+				<optgroup disabled label="Andalucía">
+					<option value="bu" selected>Burgos </option>
+					<option value="mu">Murcia </option>
+					<option value="sa">Santander </option>
+				</optgroup>
+				
+			</select>
+			<br>
+			
+			<label for="texto2"> Introduce su texto</label>
+			<input type="text" list="lista_datos" name="texto2" id="texto2">
+			
+			<datalist id="lista_datos">
+				<option value="TEXTO 1"></option>
+				<option value="TEXTO 2"></option>
+				<option value="TEXTO 3"></option>
+				<option value="TEXTO 4"></option>
+			</datalist>
+			
+			<input type="button" value="boton general" >
+			<button>otra forma <b>de boton</b></button>
+			
+			<input type="hidden" name="oculto" value="lo que sea">
+			
+			<input type="reset">
+		<input type="submit" value="enviar">
+		</form>
+		</body>
+		</html>		

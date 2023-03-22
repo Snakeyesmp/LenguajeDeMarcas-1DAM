@@ -1,0 +1,42 @@
+
+
+form{
+	margin-left:40%;
+	font-weight:bold;
+	padding-left:20px;
+	padding-top:30px;
+	border-radius:20px 20px 20px 20px;
+	width:300px;
+	background-color:lightgrey;
+}
+
+.enviar{
+	height:30px;
+	width:90%;
+	border-radius:5px 5px 5px 5px;
+	background-color:black;
+	color:white;
+}
+
+body{
+	height:1000px;
+	display:grid;
+	grid-template: 40% 60% / 100%
+}
+
+span{
+	float:right;
+	font-weight:normal;
+}
+
+
+textarea{
+	width:90%;
+	height:100px;
+	resize:none;
+}
+
+input{
+	margin-right:30px;
+	float:right;
+}

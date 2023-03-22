@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title> Ejemplo 1 </title>
+		<meta charset="utf-8">
+		
+	</head>
+	<body>
+		<h1>Unidad 1</h1>
+		<h2>Lenguaje HTML</h2>
+		<p>El lenguaje de marcas HTML no es un lenguaje de programación.
+		A través de las etiquetas le indica al navegador cómo está organizada la información.
+		</p>
+		<h2>Elementos que puede incorporar un documento HTML</h2>
+		<p>
+		</p>
+	
+	
+	</body>
+	
+	
+	</html>
+	
