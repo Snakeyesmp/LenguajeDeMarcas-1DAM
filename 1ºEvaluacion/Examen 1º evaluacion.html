@@ -1,80 +1,85 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="Estilo.css">
-		<style>		
-			#Titulo1{
-			font-size:1.5em;
-			margin-left:200px;
-			margin-right:200px;
-			text-align:center;
-			background-color:#d4f9d5;
-			}
 
-			form{
-			text-align:center;
-			margin-left:200px;
-			margin-right:200px;
-			}
-			#form2{
-			text-align:center;
-			background-color:#d4f9d5;
-			}
-			#DatosPreferencia{
-			text-align:left;
-			}
-			<!--
-			input{ No se como centrar solo los input y no el texto :D
-			 -->
-			}
-		</style>
-	</head>
-	<body>
-		<p id="Titulo1">Registro trabajadores</p>
-		<form name="Registro trabajadores" method="get">
-			Nombre:<input class="inputs" name="Nombre" type="text" placeholder="sin puntos ni guion" > <br>
-			Apellidos: 	<input name="apellido" type="text"> <br>
-			email:	 	<input name="correo" type="email"> <br>
-			<b>Teléfono:</b> <input name="tel" type="tel" > <br>
-			Sexo:		<input name="Sexo" type="radio">Masculino
-			<input name="Sexo" type="radio" checked>Femenino <br>
-			Nivel de estudio: <br> 
-			<input name="NivelEstudio" type="checkbox" checked> No tiene <br>
-			<input name="Nivelestudio" type="checkbox" checked> Tecnico <br>
-			<input name="Nivelestudio" type="checkbox" > Universitario <br>
-			
-			Ciudad de nacimiento <select name="Ciudad" size="1">
-				<option >Valladolid</option>
-				<option>Salamanca</option>
+<head>
+	<link rel="stylesheet" href="Estilo.css">
+	<style>
+		#Titulo1 {
+			font-size: 1.5em;
+			margin-left: 200px;
+			margin-right: 200px;
+			text-align: center;
+			background-color: #d4f9d5;
+		}
+
+		form {
+			text-align: center;
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+
+		#form2 {
+			text-align: center;
+			background-color: #d4f9d5;
+		}
+
+		#DatosPreferencia {
+			text-align: left;
+		}
+
+		< !-- input {
+			No se como centrar solo los input y no el texto: D -->
+		}
+	</style>
+</head>
+
+<body>
+	<p id="Titulo1">Registro trabajadores</p>
+	<form name="Registro trabajadores" method="get">
+		Nombre:<input class="inputs" name="Nombre" type="text" placeholder="sin puntos ni guion"> <br>
+		Apellidos: <input name="apellido" type="text"> <br>
+		email: <input name="correo" type="email"> <br>
+		<b>Teléfono:</b> <input name="tel" type="tel"> <br>
+		Sexo: <input name="Sexo" type="radio">Masculino
+		<input name="Sexo" type="radio" checked>Femenino <br>
+		Nivel de estudio: <br>
+		<input name="NivelEstudio" type="checkbox" checked> No tiene <br>
+		<input name="Nivelestudio" type="checkbox" checked> Tecnico <br>
+		<input name="Nivelestudio" type="checkbox"> Universitario <br>
+
+		Ciudad de nacimiento <select name="Ciudad" size="1">
+			<option>Valladolid</option>
+			<option>Salamanca</option>
+		</select> <br>
+
+		Curriculum <input name="Curriculum" type="file"> <br>
+		Foto <input name="Foto" type="file"> <br>
+
+		<b>Datos sobre preferencias: </b> <br>
+		<div id="form2">
+			<b>¿Que comida te gusta? </b> <br> <br>
+			<input name="comida" type="checkbox"> Arroz con pollo <br>
+			<input name="comida" type="checkbox"> Cazuela <br>
+			<input name="comida" type="checkbox"> Lasagna <br> <br>
+			<input name="genero" type="radio">Masculino <br>
+			<input name="genero" type="radio">Femenino <br> <br>
+			<b>Asignaturas:</b> <br>
+
+			<select name="Asignatura" size="1">
+				<option selected>Elige una...</option>
+				<option>Matematicas</option>
+				<option>Lengua</option>
+				<option>Educacion fisica</option>
 			</select> <br>
-			
-			Curriculum  <input name="Curriculum" type="file"> <br>
-			Foto 		<input name="Foto" type="file"> <br>
-			
-				<b>Datos sobre preferencias: </b> <br>
-				<div id="form2">
-				<b>¿Que comida te gusta? </b> <br> <br>
-				<input name="comida" type="checkbox"> Arroz con pollo <br>
-				<input name="comida" type="checkbox"> Cazuela <br>
-				<input name="comida" type="checkbox"> Lasagna <br> <br>
-				<input name="genero" type="radio">Masculino <br>
-				<input name="genero" type="radio">Femenino <br> <br>
-				<b>Asignaturas:</b> <br>
-				
-				<select name="Asignatura" size="1">
-					<option selected>Elige una...</option>
-					<option>Matematicas</option>
-					<option>Lengua</option>
-					<option>Educacion fisica</option>
-				</select> <br>
-				
-				Archivo: <input name="archivo" type="file"> <br>
-				Mensaje: <br>
-				<textarea cols="16" rows="8"></textarea>
-				<button name="borrar" type="reset">Borrar datos</button> <br>
-				<button name="enviar type="submit">Enviar información</button>
-				
-			</div>
-		</form>
-	</body>
-</html>		
+
+			Archivo: <input name="archivo" type="file"> <br>
+			Mensaje: <br>
+			<textarea cols="16" rows="8"></textarea>
+			<button name="borrar" type="reset">Borrar datos</button> <br>
+			<button name="enviar type=" submit">Enviar información</button>
+
+		</div>
+	</form>
+</body>
+
+</html>

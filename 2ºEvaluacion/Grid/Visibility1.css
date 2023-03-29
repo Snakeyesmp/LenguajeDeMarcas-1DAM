@@ -1,10 +1,15 @@
-div[class^="caja"]{
-	float:left;
-	padding:30px;
-	margin:20px;
-	border:2px solid #666;
-	max-width:350px;
-	}
+div[class^="caja"] {
+	float: left;
+	padding: 30px;
+	margin: 20px;
+	border: 2px solid #666;
+	max-width: 350px;
+}
 
-.caja-container .caja-5{display:none;}
-.caja-container-2 .caja-5{visibility:hidden;}
+.caja-container .caja-5 {
+	display: none;
+}
+
+.caja-container-2 .caja-5 {
+	visibility: hidden;
+}

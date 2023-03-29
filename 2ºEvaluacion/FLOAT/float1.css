@@ -1,38 +1,46 @@
-.div1{
-	background-color:red;
-}
-.div2{
-	background-color:green;
-}
-.div3{
-	background-color:blue;
-}
-.linea2{
-	clear:left;
-	background-color:black;
-}
-.div5{
-	background-color:#ffbfcd;
-}
-.div6{
-	background-color:#fea700;
-}
-div{
-	box-sizing:border-box;  /*Comando para que el tamaño (width y tal) tenga incluido tambien el border*/
-	border:2px solid black;
-	height:33.33%;
-}
-.linea1{
-	float:left;
-	width:33.33%;
+.div1 {
+	background-color: red;
 }
 
-.linea3{
-	float:left;
-	width:50%;
+.div2 {
+	background-color: green;
 }
 
-body{
-	height:950px;
-	
+.div3 {
+	background-color: blue;
+}
+
+.linea2 {
+	clear: left;
+	background-color: black;
+}
+
+.div5 {
+	background-color: #ffbfcd;
+}
+
+.div6 {
+	background-color: #fea700;
+}
+
+div {
+	box-sizing: border-box;
+	/*Comando para que el tamaño (width y tal) tenga incluido tambien el border*/
+	border: 2px solid black;
+	height: 33.33%;
+}
+
+.linea1 {
+	float: left;
+	width: 33.33%;
+}
+
+.linea3 {
+	float: left;
+	width: 50%;
+}
+
+body {
+	height: 950px;
+
 }

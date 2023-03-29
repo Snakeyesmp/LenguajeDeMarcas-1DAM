@@ -1,60 +1,61 @@
-.divgrid{
-	display:grid;
-	grid-template-columns:20% 60% 20% ;
+.divgrid {
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
 	grid-template-rows: 20% 60% 20%;
-	background-color:#bcbcbc;
-	font-family:sans-serif;
+	background-color: #bcbcbc;
+	font-family: sans-serif;
 }
 
-header{
-	font-weight:bold;
-	font-size:2em;	
+header {
+	font-weight: bold;
+	font-size: 2em;
 }
 
-.SegundaFoto{
-	opacity:0;
+.SegundaFoto {
+	opacity: 0;
 }
 
-nav{
-	min-width:100px;
-	margin-right:50px;
-	grid-column-start:1;
-	grid-row-start:2;
-	height:100px;
-	background-color:#01ff02;
+nav {
+	min-width: 100px;
+	margin-right: 50px;
+	grid-column-start: 1;
+	grid-row-start: 2;
+	height: 100px;
+	background-color: #01ff02;
 }
 
-main{
-	cursor: url(amogus.cur),auto;
-	grid-column-start:2;
-	grid-row-start:2;
-	background-color:#fdfd00;
+main {
+	cursor: url(amogus.cur), auto;
+	grid-column-start: 2;
+	grid-row-start: 2;
+	background-color: #fdfd00;
 }
 
-aside{
-	margin-left:50px;
-	grid-column-start:3;
-	grid-row-start:2;
-	background-color:#808080;
+aside {
+	margin-left: 50px;
+	grid-column-start: 3;
+	grid-row-start: 2;
+	background-color: #808080;
 }
 
-footer{
-	padding-top:20px;
-	font-size:2em;
-	grid-column-start:1;
-	grid-row-start:3;
-	grid-column-end:4;
-	background-color:#fda702;
-	text-align:center;
+footer {
+	padding-top: 20px;
+	font-size: 2em;
+	grid-column-start: 1;
+	grid-row-start: 3;
+	grid-column-end: 4;
+	background-color: #fda702;
+	text-align: center;
 }
 
-.Titulo{
-	padding-bottom:50px;
+.Titulo {
+	padding-bottom: 50px;
 }
 
-img{
-	float:right;
+img {
+	float: right;
 }
+
 /*
 	.PrimeraFoto{
 	position:absolute;
@@ -62,21 +63,21 @@ img{
 	
 	}
 */
-.SegundaFoto{
-	position:absolute;
-	z-index:-1;
+.SegundaFoto {
+	position: absolute;
+	z-index: -1;
 }
 
 @media screen and (max-width:800px) and (min-width:500px) {
-	
-	.divgrid{
-		display:grid;
-		grid-template-columns:40% 60%;
-		grid-template-rows:20% 60% 20% ;
-		background-color:#bcbcbc;
-		font-family:sans-serif;
+
+	.divgrid {
+		display: grid;
+		grid-template-columns: 40% 60%;
+		grid-template-rows: 20% 60% 20%;
+		background-color: #bcbcbc;
+		font-family: sans-serif;
 	}
-	
+
 	/*
 		.PrimeraFoto{
 		position:absolute;
@@ -89,95 +90,92 @@ img{
 		}
 		
 	*/
-	
-	nav{
-		list-style-type:none;
-		list-item:none;
-		width:90%;
-		grid-column-start:1;
-		grid-row-start:2;
-		height:100px;
-		background-color:#01ff02;
+
+	nav {
+		list-style-type: none;
+		list-item: none;
+		width: 90%;
+		grid-column-start: 1;
+		grid-row-start: 2;
+		height: 100px;
+		background-color: #01ff02;
 	}
-	
-	main{
-		grid-column-start:2;
-		grid-row-start:2;
-		background-color:#fdfd00;
+
+	main {
+		grid-column-start: 2;
+		grid-row-start: 2;
+		background-color: #fdfd00;
 	}
-	
-	aside{
-		margin-left:0;
-		width:100%;
-		grid-column-start:2;
-		grid-row-start:3;
-		background-color:#808080;
+
+	aside {
+		margin-left: 0;
+		width: 100%;
+		grid-column-start: 2;
+		grid-row-start: 3;
+		background-color: #808080;
 	}
-	
-	footer{
-		opacity:0;
+
+	footer {
+		opacity: 0;
 	}
-	
+
 }
 
-@media screen and (max-width:500px){
-	
-	.divgrid{
-		display:grid;
-		grid-template-columns:100%;
-		grid-template-rows:20% 20% 40% 20%;
-		background-color:#bcbcbc;
-		font-family:sans-serif;
+@media screen and (max-width:500px) {
+
+	.divgrid {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 20% 20% 40% 20%;
+		background-color: #bcbcbc;
+		font-family: sans-serif;
 	}
-	
-	img{
-		opacity:0;	
+
+	img {
+		opacity: 0;
 	}
-	
-	header{
-		margin:auto;
+
+	header {
+		margin: auto;
 		grid-area: 1/1/5/5;
-		font-weight:bold;
-		font-size:2em;	
+		font-weight: bold;
+		font-size: 2em;
 	}
-	
-	nav{
-		list-style-type:none;
-		list-item:none;
-		width:100%;
+
+	nav {
+		list-style-type: none;
+		list-item: none;
+		width: 100%;
 		grid-area: 2/1/2/5;
-		background-color:#01ff02;
+		background-color: #01ff02;
 	}
-	
-	main{
-		margin:auto;
+
+	main {
+		margin: auto;
 		grid-area: 3/1/5/5;
-		background-color:#fdfd00;
+		background-color: #fdfd00;
 	}
-	
-	aside{
-		margin:auto;
-		width:100%;
+
+	aside {
+		margin: auto;
+		width: 100%;
 		grid-area: 5/1/5/5;
-		background-color:#808080;
+		background-color: #808080;
 	}
-	
-	.PrimeraFoto{
-		position:absolute;
-		z-index:-1;
-		
+
+	.PrimeraFoto {
+		position: absolute;
+		z-index: -1;
+
 	}
-	
-	.SegundaFoto{
-		position:absolute;
-		z-index:1;
+
+	.SegundaFoto {
+		position: absolute;
+		z-index: 1;
 	}
-	
-	footer{
-		opacity:0;
+
+	footer {
+		opacity: 0;
 	}
-	
+
 }
-
-
-

@@ -1,81 +1,62 @@
-*{ 
-}
+* {}
 
-span{						
-	
-}
-#estilo1{	
-	
-}
-#estilo2{
-	
-}
-estilo_class{
-	
-}
+span {}
 
-p b i span{
-	
-	
-}
-h1,p,span{
-	
-}
-span.estilo_class{
-	
-}	
-p > b{
-	
-}
-p + b{
-	
-}
+#estilo1 {}
+
+#estilo2 {}
+
+estilo_class {}
+
+p b i span {}
+
+h1,
+p,
+span {}
+
+span.estilo_class {}
+
+p>b {}
+
+p+b {}
 
 /* selectores de atributo */
-[style]{
-	
-}
-[style= "color:green"]{
-		
-}
+[style] {}
 
-[class~ ="valor3"]{
-	
-}
+[style="color:green"] {}
+
+[class~="valor3"] {}
 
 /* Selectores de pseudoclases */
 
-p:first-line{
+p:first-line {
 
-	text-decoration:underline;
-	font-family:"comic sans MS";
+	text-decoration: underline;
+	font-family: "comic sans MS";
 
 }
 
-p:first-letter{
+p:first-letter {}
 
-	
+p:hover {
+	background-color: yellow;
+
 }
 
-p:hover{
-	background-color:yellow;
-	
+p:active {
+	color: red
 }
 
-p:active{
-	color:red
-	
-}
-p:after{
-	content:"Añadido después del párrafo...";
-	
-}
-p:before{
-	content:"Texto antes del párrafo";
-		
+p:after {
+	content: "Añadido después del párrafo...";
+
 }
 
-p:link{}
-p:visited{}
+p:before {
+	content: "Texto antes del párrafo";
 
+}
 
+p:link {}
+
+p:visited {}

@@ -1,47 +1,50 @@
-*{
-	font-family:"comic sans MS";
-	text-decoration:underline;
-	
+* {
+	font-family: "comic sans MS";
+	text-decoration: underline;
+
 }
 
 
-@media screen and (min-width:600px){
-	
-	div{
-		width:30%;
-		float:left;
-		margin-left:10%;
+@media screen and (min-width:600px) {
+
+	div {
+		width: 30%;
+		float: left;
+		margin-left: 10%;
 	}
-	
-	.uno{
-		background-color:blue;
+
+	.uno {
+		background-color: blue;
 	}
-	
-	.dos{
-		background-color:yellow;
+
+	.dos {
+		background-color: yellow;
 	}
-	
+
 }
-@media screen and (max-width:600px){
-	div{
-		width:95%;
-		margin:0 auto;
+
+@media screen and (max-width:600px) {
+	div {
+		width: 95%;
+		margin: 0 auto;
 	}
-	
-	
-	
-	.uno{
-		color:blue;
+
+
+
+	.uno {
+		color: blue;
 	}
-	
-	.dos{
-		color:yellow;
+
+	.dos {
+		color: yellow;
 	}
 }
 
-@media print and (orientation:landscape){ /* Selector que solo se aplica cuando le das a imprimir, y en orientación horizontal*/
-	*{
-		font-family:serif;
-		text-decoration:none;
+@media print and (orientation:landscape) {
+
+	/* Selector que solo se aplica cuando le das a imprimir, y en orientación horizontal*/
+	* {
+		font-family: serif;
+		text-decoration: none;
 	}
 }

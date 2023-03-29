@@ -1,29 +1,29 @@
-#indice{
-	float:left;
-	background-color:lightblue;
-	width:10%;
-	height:500px;
-	
+#indice {
+	float: left;
+	background-color: lightblue;
+	width: 10%;
+	height: 500px;
+
 }
 
-ul{
-	padding-left:85px;
+ul {
+	padding-left: 85px;
 }
 
 #contenido {
-	margin-left:25px;
-	float:left;
+	margin-left: 25px;
+	float: left;
 	background-color: orange;
-	height:500px;
-	width:80%;
-	overflow:scroll;
+	height: 500px;
+	width: 80%;
+	overflow: scroll;
 }
 
-.enlace{
-	text-align:right;
+.enlace {
+	text-align: right;
 }
 
-#contenido div{
-	width:100%;
-	height:100%;
+#contenido div {
+	width: 100%;
+	height: 100%;
 }

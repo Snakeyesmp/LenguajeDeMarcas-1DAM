@@ -1,42 +1,45 @@
-*{box-sizing:border box;}
-
-form{
-	margin-left:40%;
-	font-weight:bold;
-	padding-left:20px;
-	padding-top:30px;
-	border-radius:20px 20px 20px 20px;
-	width:300px;
-	background-color:lightgrey;
+* {
+	box-sizing: border box;
 }
 
-.enviar{
-	height:30px;
-	width:90%;
-	border-radius:5px 5px 5px 5px;
-	background-color:black;
-	color:white;
-	cursor:pointer;  /* PARA PONER EL CURSOR DE LINK AL PASAR EL RATON POR EL CURSOR  */
+form {
+	margin-left: 40%;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 30px;
+	border-radius: 20px 20px 20px 20px;
+	width: 300px;
+	background-color: lightgrey;
 }
 
-body{
-	height:1000px;
-	display:grid;
-	grid-template:40% 60%/100%;
+.enviar {
+	height: 30px;
+	width: 90%;
+	border-radius: 5px 5px 5px 5px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	/* PARA PONER EL CURSOR DE LINK AL PASAR EL RATON POR EL CURSOR  */
 }
 
-span{
-	float:right;
-	font-weight:normal;
+body {
+	height: 1000px;
+	display: grid;
+	grid-template: 40% 60%/100%;
 }
 
-textarea{
-	width:90%;
-	height:100px;
-	resize:none;
+span {
+	float: right;
+	font-weight: normal;
 }
 
-input{
-	margin-right:30px;
-	float:right;
+textarea {
+	width: 90%;
+	height: 100px;
+	resize: none;
+}
+
+input {
+	margin-right: 30px;
+	float: right;
 }

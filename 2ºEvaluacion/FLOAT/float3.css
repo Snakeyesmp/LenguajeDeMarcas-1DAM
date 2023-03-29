@@ -1,74 +1,93 @@
-*{
-	box-sizing:border-box; /*Para que el borde no cuente como tamaño en el width*/
-	font-family:sans-serif;
+* {
+	box-sizing: border-box;
+	/*Para que el borde no cuente como tamaño en el width*/
+	font-family: sans-serif;
 }
 
-.encabezado{
-	background-color:#8eb4e1;
-	text-align:center;
-	font-size:3em;
-	padding:0.5em;
-	
+.encabezado {
+	background-color: #8eb4e1;
+	text-align: center;
+	font-size: 3em;
+	padding: 0.5em;
+
 }
-.izq,.contenido,.dcha{
-	float:left;
+
+.izq,
+.contenido,
+.dcha {
+	float: left;
 }
-.enlaces{
-	background-color:#02aff1;
+
+.enlaces {
+	background-color: #02aff1;
 }
-.izq{
-	width:20%;
+
+.izq {
+	width: 20%;
 }
-.enlaces li{
-	list-style-type:none;
-	text-align:center;
-	padding:25px;
-	border:1px solid black;
+
+.enlaces li {
+	list-style-type: none;
+	text-align: center;
+	padding: 25px;
+	border: 1px solid black;
 }
-.enlaces ul{
-	padding:0px;
-	margin:0px;
+
+.enlaces ul {
+	padding: 0px;
+	margin: 0px;
 }
-.enlaces ul li a{
-	text-decoration:none;
-	color:black;
-	font-weight:bold;
+
+.enlaces ul li a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
-.dcha div{
-	padding:7.28em;
+
+.dcha div {
+	padding: 7.28em;
 }
-.banner3{
-	padding:2em 0px;
+
+.banner3 {
+	padding: 2em 0px;
 }
-.banner3,.banner1,.banner2{
-	background-color:#91cddb;
-	text-align:center;
-	font-weight:bold;
+
+.banner3,
+.banner1,
+.banner2 {
+	background-color: #91cddb;
+	text-align: center;
+	font-weight: bold;
 }
-.contenido *{
-	position:relative;
-	top:45%;
-	font-size:2em;
+
+.contenido * {
+	position: relative;
+	top: 45%;
+	font-size: 2em;
 }
-.contenido{
-	position:relative;
-	background-color:#e5b7b7;	
-	font-weight:bold;
-	width:50%;
-	height:31.75em;
-	text-align:center;
+
+.contenido {
+	position: relative;
+	background-color: #e5b7b7;
+	font-weight: bold;
+	width: 50%;
+	height: 31.75em;
+	text-align: center;
 }
-.pie{
-	background-color:#94d14f;
-	clear:left;
-	text-align:center;
-	padding:5px;
-	font-size:2em;
-	font-weight:bold;
+
+.pie {
+	background-color: #94d14f;
+	clear: left;
+	text-align: center;
+	padding: 5px;
+	font-size: 2em;
+	font-weight: bold;
 }
-.dcha{
-	width:30%;
+
+.dcha {
+	width: 30%;
 }
-div{
-	border:1px solid black;
+
+div {
+	border: 1px solid black;
 }

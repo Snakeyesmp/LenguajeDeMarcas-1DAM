@@ -1,31 +1,34 @@
 table {
-	
-	width:100%;
-	text-align:center;
+
+	width: 100%;
+	text-align: center;
 	background-color: pink;
-	border-collapse:collapse;
-	
+	border-collapse: collapse;
+
 }
-td,table {
+
+td,
+table {
 	border: 2px grey ridge;
-	
+
 }
 
 
 caption {
 	background-color: pink;
 	font-size: 200%;
-	text-transform:uppercase;
-	font-style:bold;
-	
+	text-transform: uppercase;
+	font-style: bold;
+
 }
-img{
-	width:200px;
+
+img {
+	width: 200px;
 }
 
 
-#primera_division{
-	border: 10px solid red ;
+#primera_division {
+	border: 10px solid red;
 	padding: 3px;
-	
+
 }

@@ -1,49 +1,48 @@
-body{
-	background-color:#ebd088;
+body {
+	background-color: #ebd088;
 }
 
-nav li{
-	display:inline;
-	margin-left:3em;
+nav li {
+	display: inline;
+	margin-left: 3em;
 }
 
-nav{
-	width:50%;
-	background-color:#ebc011;
-	padding:1px 0;
+nav {
+	width: 50%;
+	background-color: #ebc011;
+	padding: 1px 0;
 }
 
-.foto{
-	margin-left:2em;
-	width:200px;
+.foto {
+	margin-left: 2em;
+	width: 200px;
 }
 
-#ingredientes{
-	background-color:#d7edb9;
+#ingredientes {
+	background-color: #d7edb9;
 }
 
-#proceso{
-	margin-top:1em;
-	background-color:#f095e7;
+#proceso {
+	margin-top: 1em;
+	background-color: #f095e7;
 }
 
-#ingredientes,#proceso{
-		padding:2em;
-		width:50%;
-		height:250px;
+#ingredientes,
+#proceso {
+	padding: 2em;
+	width: 50%;
+	height: 250px;
 }
 
-.lingre,.lproceso{
-	float:left;
-	width:50%;
+.lingre,
+.lproceso {
+	float: left;
+	width: 50%;
 }
 
-footer{
-	position:sticky;
-	bottom:0px;
-	background-color:#d7edb7;
-	margin-top:3em;
+footer {
+	position: sticky;
+	bottom: 0px;
+	background-color: #d7edb7;
+	margin-top: 3em;
 }
-
-
-
