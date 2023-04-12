@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<datos><dato>1</dato>   <dato>2</dato>
+<datos>
+    <dato>1</dato>
+    <dato>2</dato>
 
 
-<dato>3</dato></datos>
+    <dato>3</dato>
+</datos>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <persona profesion="cantante">
    <nombre>Elsa</nombre>
-   <mujer/>
+   <mujer />
    <fecha_de_nacimiento>
       <dia>18</dia>
       <mes>6</mes>

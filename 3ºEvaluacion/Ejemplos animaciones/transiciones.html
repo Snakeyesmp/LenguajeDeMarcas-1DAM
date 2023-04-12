@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>plantilla</title>
+	<meta charset="utf-8">
+	<style>
+		div {
+			padding: 30px;
+			width: 30px;
+			background-color: red;
+			position: absolute;
+
+
+			/*	animation:	movimiento1 2s linear,
+						movimiento2 2s linear 2s,
+						movimiento3 2s linear 4s,
+						movimiento4 2s linear 6s;
+			animation-fill-mode:forwards;
+		*/
+			animation: movimiento-total 6s linear infinite;
+
+
+		}
+
+		div:active {
+			background-color: blue;
+			top: 60%;
+
+		}
+
+		@keyframes movimiento-total {
+			0% {
+				top: 0;
+				left: 0;
+			}
+
+			25% {
+				left: 0;
+				top: 90%;
+			}
+
+			50% {
+				top: 90%;
+				left: 90%;
+			}
+
+			75% {
+				left: 90%;
+				top: 0%;
+			}
+
+			100% {
+				top: 0;
+				left: 0;
+			}
+		}
+
+
+		@keyframes movimiento1 {
+
+			/* solo faltaba la 's' en keyframeS */
+			from {
+				top: 10%;
+			}
+
+			to {
+				top: 90%;
+			}
+		}
+
+		@keyframes movimiento2 {
+			from {
+				left: 0;
+			}
+
+			to {
+				left: 90%;
+			}
+		}
+
+		@keyframes movimiento3 {
+			from {
+				top: 90%;
+			}
+
+			to {
+				top: 10%;
+			}
+		}
+
+		@keyframes movimiento4 {
+			from {
+				left: 90%;
+			}
+
+			to {
+				left: 0%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div>dsfdsf</div>
+
+</body>
+
+</html>

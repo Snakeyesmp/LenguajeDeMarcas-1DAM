@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /* parte básica */
+        .cubo,
+        .cubo .cara {
+            width: 200px;
+            height: 200px;
+        }
+
+        .cubo .cara {
+            position: absolute;
+        }
+
+        .cubo {
+            margin: 100px auto;
+        }
+
+        /* fondo diferente a cada cara para notar los cambios en la transformación 3D */
+        .cubo .cara#superior {
+            background-color: orange;
+        }
+
+        .cubo .cara#frente {
+            background-color: red;
+        }
+
+        .cubo .cara#atras {
+            background-color: green;
+        }
+
+        .cubo .cara#derecha {
+            background-color: blue;
+        }
+
+        .cubo .cara#izquierda {
+            background-color: yellow;
+        }
+
+        .cubo .cara#inferior {
+            background-color: fuchsia;
+        }
+
+        /* para mantener las transformaciones 3D de los hijos (.cara) en relación al padre (.cubo) */
+        .cubo {
+            transform-style: preserve-3d;
+            transform: perspective(700px) rotateX(-30deg) rotateY(-30deg);
+        }
+
+        /*  mover y rotar cada una de las caras para que queden alineadas para formar el cubo */
+        .cubo .cara#superior {
+            background-color: orange;
+            transform: rotateX(90deg) translateZ(100px);
+        }
+
+        .cubo .cara#frente {
+            background-color: red;
+            transform: translateZ(100px);
+        }
+
+        .cubo .cara#atras {
+            background-color: green;
+            transform: translateZ(-100px);
+        }
+
+        .cubo .cara#derecha {
+            background-color: blue;
+            transform: rotateY(90deg) translateZ(100px);
+        }
+
+        .cubo .cara#izquierda {
+            background-color: yellow;
+            transform: rotateY(-90deg) translateZ(100px);
+        }
+
+        .cubo .cara#inferior {
+            background-color: fuchsia;
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+
+        /* animación del cubo
+	Gracias a la propiedad preserve-3d de transform-style aplicada al .cubo, nos será posible rotar las caras con mucha facilidad. 
+	Solo hace falta realizar una vuelta de 360° en X y Y con rotateX y rotateY respectivamente con transform */
+        .cubo {
+            animation: rotate 2s infinite linear;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotateX(0deg) rotateY(0deg);
+            }
+
+            100% {
+                transform: rotateX(360deg) rotateY(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cubo">
+        <div class="cara" id="superior"></div>
+        <div class="cara" id="frente"></div>
+        <div class="cara" id="derecha"></div>
+        <div class="cara" id="izquierda"></div>
+        <div class="cara" id="atras"></div>
+        <div class="cara" id="inferior"></div>
+    </div>
+
+</body>
+
+</html>
