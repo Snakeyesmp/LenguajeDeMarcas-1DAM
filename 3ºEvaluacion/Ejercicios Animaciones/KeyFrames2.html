@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrado animacion</title>
+    <style>
+        /* Se crea un cuadrado de 100 pixeles de color verde*/
+        #cuadrado {
+            margin: auto;
+            margin-top: 20%;
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            background-size: 100% 100%;
+
+            animation: transformacion1 3s linear, disco 0.3s linear infinite;
+
+            animation-fill-mode: forwards;
+
+        }
+
+        @keyframes transformacion1 {
+            from {
+                transform: rotate(0) translate(300px);
+                background-color: red;
+            }
+
+            to {
+                background-color: blue;
+                transform: rotate(360deg) translate(50%, 50%);
+            }
+        }
+
+        @keyframes disco {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cuadrado"></div>
+</body>
+
+</html>

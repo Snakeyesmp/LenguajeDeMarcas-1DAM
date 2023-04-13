@@ -9,19 +9,24 @@
     <style>
         /* Se crea un cuadrado de 100 pixeles de color verde*/
         #cuadrado {
-            width: 100px;
-            height: 100px;
-            background-color: green;
-            animation: nuestra-animacion 3s linear 1s;
-            animation-fill-mode: backwards;
+            width: 200px;
+            height: 200px;
+            background-image: url("paella.jpg");
+            background-repeat: no-repeat;
+            background-attachment: local;
+            background-size: 100% 100%;
+            /* animation: nuestra-animacion 60s linear 1s; */
+            animation: uno 1s linear, dos 1s linear 1s, tres 1s linear 2s, cuatro 1s linear 3s;
+
+            animation-fill-mode: forwards;
         }
+
         /* 
            hacer que el cuadrado se mueva en un cuadrado recorriendo toda la pantalla
         */
         @keyframes nuestra-animacion {
             from {
                 margin-left: 0;
-
             }
 
             25% {
@@ -42,6 +47,64 @@
             100% {
                 margin-left: 0px;
                 margin-top: 0%;
+            }
+
+        }
+
+        @keyframes uno {
+            from {
+                background-image: url("paella.jpg");
+                margin-left: 0px;
+            }
+
+            to {
+                background-image: url("sopa_cebolla.jpg");
+                margin-left: 70%;
+            }
+        }
+
+        @keyframes dos {
+            from {
+
+                margin-top: 0px;
+            }
+
+            to {
+
+                margin-top: 40%;
+            }
+        }
+
+        @keyframes tres {
+            from {
+                margin-left: 70%;
+            }
+
+            to {
+                margin-left: 0px;
+            }
+        }
+
+        @keyframes cuatro {
+            from {
+                background-image: url("sopa_cebolla.jpg");
+                margin-top: 40%;
+            }
+
+            to {
+                background-image: url("paella.jpg");
+                margin-top: 0px;
+            }
+        }
+
+        @keyframes transformacion1 {
+
+            from {
+                transform: rotate(0);
+            }
+
+            to {
+                transoform: rotate(360deg);
             }
 
         }
