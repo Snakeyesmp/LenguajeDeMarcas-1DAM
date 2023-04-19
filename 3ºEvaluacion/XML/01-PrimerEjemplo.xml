@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ejemplo01>
-  <!-- EJEMPLO 2 DE COMO HACERLO-->
+  <!-- EJEMPLO 1 DE COMO HACERLO-->
   <producto>
     <codigo>G45</codigo>
     <nombre color="negro" precio="12.56">Gorro de lana</nombre>
   </producto>
-  <!-- EJEMPLO 1 DE COMO HACERLO-->
+  <!-- EJEMPLO 2 DE COMO HACERLO-->
   <producto codigo="G45" color="negro" precio="12.56" nombre="Gorro de lana"></producto>
   <!-- EJEMPLO 3 DE COMO HACERLO-->
   <producto>
