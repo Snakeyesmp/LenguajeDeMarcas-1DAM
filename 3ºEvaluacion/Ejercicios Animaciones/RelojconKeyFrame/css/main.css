@@ -15,7 +15,6 @@
     }
 }
 
-
 #clock {
     position: relative;
     width: 378px;
@@ -29,17 +28,16 @@
     position: absolute;
 }
 
-
 /* ANIMACIONES Y TRANSFORMACIONES */
 
 #second {
-    animation: giro 60s linear;
+    animation: giro 60s steps(60) infinite;
 }
 
 #minute {
-    animation: giro 3600s linear;
+    animation: giro calc(60s * 60) steps(60) infinite;
 }
 
 #hour {
-    animation: giro 216000s linear;
+    animation: giro calc(60s * 60 * 12) linear infinite;
 }
