@@ -1,9 +1,12 @@
 nombre {
     color: blue;
-    font-size: 40px
+    font-size: 40px;
 }
 
 patas {
     color: red;
-    font-size: 22px
+    font-size: 22px;
+    display:block;
+    background-color: rgb(128, 128, 128);
+    width: 100px;
 }
