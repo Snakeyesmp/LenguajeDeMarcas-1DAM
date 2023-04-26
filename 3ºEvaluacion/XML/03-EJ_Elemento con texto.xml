@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciudad [
+    <!ELEMENT ciudad (#PCDATA)> <!-- Con #PCDATA se ha indicado que el elemtno ciudad puede contener
+    una cadena de carateres analizable-->
+]>
+<ciudad>Roma</ciudad>

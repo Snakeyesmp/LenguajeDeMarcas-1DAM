@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+    <!ELEMENT persona (nombre, mayor_de_edad, ciudad)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT mayor_de_edad EMPTY> <!-- CON EMPTY NO PUEDE TENER TEXTO NI ELEMENTOS, PERO IS QUE PUEDE
+    TENER ATRIBUTOS -->
+    <!ELEMENT ciudad (#PCDATA)>
+]>
+<persona>
+    <nombre>Elsa</nombre>
+    <mayor_de_edad />
+    <ciudad>Pamplona</ciudad>
+</persona>

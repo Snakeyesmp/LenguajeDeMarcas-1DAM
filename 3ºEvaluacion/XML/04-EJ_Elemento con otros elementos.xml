@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ciudad [
+    <!ELEMENT ciudad (nombre, pais)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+]>
+<ciudad>
+    <nombre>Roma</nombre>
+    <pais>Italia</pais>
+</ciudad>
