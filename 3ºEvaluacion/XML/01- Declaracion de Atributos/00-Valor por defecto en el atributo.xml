@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas 
+[
+    <!ELEMENT deportistas (futbol | f1 | tenis)*>
+    <!ELEMENT futbol (#PCDATA)>
+    <!ELEMENT f1 (#PCDATA)>
+    <!ATTLIST f1 pais CDATA "España"> <!ELEMENT tenis (#PCDATA)> ]> <deportistas> <f1 pais="Alemania">Sebastian Vettel</f1> <f1>Fernando Alonso</f1> <tenis>Rafael
+    Nadal</tenis> </deportistas>
+
+    <!-- Se ha indificado que el elemento "f1" puede tener el atributo  "pais" se hace que el valor
+    por defecto de f1 sea España, aunque la etiqueta de Fernando Alonso esté vacía su valor por
+    defecto será España-->
