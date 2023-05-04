@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE departamentos [
+    <!-- DTD de departamentos -->
+    <!ELEMENT departamentos (departamento+)>
+    <!ELEMENT departamento (nomdept, responsable, personas)>
+    <!ELEMENT nomdept (#PCDATA)>
+    <!ELEMENT responsable (nombre, apellidos, email, extension)>
+    <!ELEMENT personas (persona+)>
+    <!ELEMENT persona (nombre, apellidos, email, extension)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT extension (#PCDATA)>
+]>
+
+<departamentos>
+    <departamento>
+        <nomdept></nomdept>
+        <responsable>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <email></email>
+            <extension></extension>
+        </responsable>
+        <personas>
+            <persona>
+                <nombre></nombre>
+                <apellidos></apellidos>
+                <email></email>
+                <extension></extension>
+            </persona>
+        </personas>
+    </departamento>
+
+</departamentos>

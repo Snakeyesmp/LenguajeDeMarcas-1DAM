@@ -1,0 +1,4 @@
+Explica la siguiente declaración en XML
+
+Es la etiqueta alumno, que tiene como 3 atributos matrícula(Es un ID), la cual es requerida,  el curso que es un tipo de datos enumerado con 6 valores, pero es optativo, 
+y el becado que es un tipo de dato que puede ser "si" o "no" y que por defecto tomará el valor de "no"

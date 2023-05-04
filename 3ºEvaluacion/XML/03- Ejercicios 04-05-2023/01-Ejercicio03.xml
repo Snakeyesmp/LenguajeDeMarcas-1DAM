@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articulos [
+    <!ELEMENT articulos (articulo)+>
+    <!ELEMENT articulo (#PCDATA)>
+    <!ATTLIST articulo color CDATA #FIXED "rojo">
+]>
+<articulos>
+    <articulo color="rojo">boligrafo </articulo>
+    <articulo>cuaderno</articulo>
+    <articulo>rotulador </articulo>
+</articulos>
+
+<!-- los errores eran que el atributo nombre no existía, y el color tiene que ser rojo-->
