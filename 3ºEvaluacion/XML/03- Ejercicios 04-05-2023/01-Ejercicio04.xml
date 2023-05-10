@@ -2,20 +2,21 @@
 <!DOCTYPE geografia [
     <!ELEMENT geografia (paises,cuidades)>
     <!ELEMENT paises (pais)*>
-        <!ELEMENT pais (#PCDATA)>
-            <!ATTLIST pais codpais ID #REQUIRED>
-        <!ELEMENT ciudades (ciudad)*>
-        <!ELEMENT ciudad (#PCDATA)>
-            <!ATTLIST ciudad pais IDREF #IMPLIED>
-
+    <!ELEMENT pais (#PCDATA)>
+    <!ATTLIST pais codpais ID #REQUIRED>
+    <!ELEMENT ciudades (ciudad)*>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ATTLIST ciudad pais IDREF #IMPLIED>
 ]>
 <geografia>
     <paises>
-        <pais codpais="1">Argentina</pais>
-        <pais codpais="2">Argentina</pais>
-        <pais codpais="3">Argentina</pais>
-        <pais codpais="4">Argentina</pais>
+        <pais codpais="uno">Argentina</pais>
+        <pais codpais="dos">Argentina</pais>
+        <pais codpais="tres">Argentina</pais>
+        <pais codpais="cuatro">Argentina</pais>
     </paises>
-
+    <ciudades>
+        <ciudad pais="españa">hola</ciudad>
+    </ciudades>
 
 </geografia>

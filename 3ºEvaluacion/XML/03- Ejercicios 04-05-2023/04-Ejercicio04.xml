@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FAQ SYSTEM "FAQ.DTD">
+<FAQ>
+    <INFO>
+        <TITULO> WINDOWS98? ¿Qué barco desea hundir hoy? </TITULO>
+        <AUTOR> Juan sin nombre </AUTOR>
+        <EMAIL> hola@yahoo.es </EMAIL>
+        <VERSION> 1.0 </VERSION>
+        <FECHA> 20.abril.99 </FECHA>
+    </INFO>
+    <PART number="1">
+        <Q id="1">
+            <QTEXT>¿Por qué tengo que instalar W95?</QTEXT>
+            <A> A mi también me parece una buena pregunta.</A>
+        </Q>
+        <Q id="2">
+            <QTEXT>Y de que me vale?</QTEXT>
+            <A>Otra ingeniosa pregunta.</A>
+        </Q>
+    </PART>
+</FAQ>
