@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "03-Lungo.dtd">
+
+<empresa>
+    <pedidos>
+        <sucursal codigo="Cod1">
+            <direccion> </direccion>
+            <trabajador> </trabajador>
+            <fecha> </fecha>
+            <observacion> </observacion>
+            <articulo codigo="Cod2">
+                <unidades> </unidades>
+                <precio> </precio>
+                <observaciones> </observaciones>
+                <plazo> </plazo>
+            </articulo>
+        </sucursal>
+    </pedidos>
+</empresa>

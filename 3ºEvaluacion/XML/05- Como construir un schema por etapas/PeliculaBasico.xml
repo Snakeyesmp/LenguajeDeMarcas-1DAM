@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pelicula xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="peliculaBasico.xsd" tipo="drama" duracion="112" idioma="ingles"
+    apta="mayores de 7">
+
+
+    <titulo>"Hereafter"</titulo>
+    <actor pais="EEUU"> Matt Dammon </actor>
+    <actor pais="Bélgica"> Cecile de France </actor>
+    <productor nombreb="Steven Spielberg" />
+    <director>
+        <nombre>Clint Eastwood</nombre>
+        <domicilio>c/ Pino, 5, 2oC</domicilio>
+        <codigoPostal>41005</codigoPostal>
+        <localidad>Sevilla</localidad>
+        <matriculaVeh>4875 GMH</matriculaVeh>
+        <numTelef>875 123 456</numTelef>
+    </director>
+    <fecha_estreno>
+        <año>2011</año>
+        <mes>marzo</mes>
+        <dia>23</dia>
+    </fecha_estreno>
+    <aforo_salas>160</aforo_salas>
+</pelicula>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE geografia [
-    <!ELEMENT geografia (paises,cuidades)>
-    <!ELEMENT paises (pais)*>
+    <!ELEMENT geografia (paises,ciudades)>
+    <!ELEMENT paises (pais*)>
     <!ELEMENT pais (#PCDATA)>
     <!ATTLIST pais codpais ID #REQUIRED>
-    <!ELEMENT ciudades (ciudad)*>
+    <!ELEMENT ciudades (ciudad)>
     <!ELEMENT ciudad (#PCDATA)>
-    <!ATTLIST ciudad pais IDREF #IMPLIED>
+    <!ATTLIST ciudad pais IDREF >
 ]>
+
 <geografia>
     <paises>
         <pais codpais="uno">Argentina</pais>

@@ -1,0 +1,93 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Elementos simples -->
+    <xs:element name="titulo" type="xs:string" />
+    <xs:element name="nombre" type="xs:string" />
+    <xs:element name="domicilio" type="xs:string" />
+    <xs:element name="localidad" type="xs:string" />
+    <xs:element name="año" type="xs:string" />
+    <xs:element name="mes" type="xs:string" />
+    <xs:element name="dia" type="xs:string" />
+
+    <!-- Atributos -->
+    <xs:attribute name="pais" type="xs:string" />
+    <xs:attribute name="nombreb" type="xs:string" />
+
+    <!-- Atributos del elemento raíz -->
+    <xs:attribute name="tipo" type="xs:string" />
+    <xs:attribute name="duracion" type="xs:string" />
+    <xs:attribute name="idioma" type="xs:string" />
+    <xs:attribute name="apta" type="xs:string" />
+
+    <!-- Elementos complejos -->
+    <xs:element name="pelicula">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="titulo" />
+                <xs:element name="actor" maxOccurs="4">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute ref="pais" />
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="productor">
+                    <xs:complexType>
+                        <xs:attribute ref="nombreb" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="director">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="nombre" />
+                            <xs:element ref="domicilio" />
+                            <xs:element ref="codigoPostal" />
+                            <xs:element ref="localidad" />
+                            <xs:element ref="matriculaVeh" />
+                            <xs:element ref="numTelef" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element ref="fecha_estreno" />
+                <xs:element name="aforo_salas" type="xs:integer" />
+            </xs:sequence>
+            <xs:attribute ref="tipo" />
+            <xs:attribute ref="duracion" />
+            <xs:attribute ref="idioma" />
+            <xs:attribute ref="apta" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="codigoPostal" type="codigoPostalType" />
+    <xs:element name="matriculaVeh" type="matriculaVehType" />
+    <xs:element name="numTelef" type="numTelefType" />
+
+    <xs:simpleType name="codigoPostalType">
+        <xs:restriction base="xs:string">
+            <xs:length value="5" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="matriculaVehType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{4}\s[A-Z]{3}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="numTelefType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(\d{3})\s\d{3}\s\d{3}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="fecha_estreno">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="año" />
+                <xs:element ref="mes" />
+                <xs:element ref="dia" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
