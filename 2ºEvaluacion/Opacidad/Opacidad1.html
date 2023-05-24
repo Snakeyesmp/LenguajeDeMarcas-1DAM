@@ -1,37 +1,62 @@
 <!DOCTYPE html>
 <html lang=es>
-	<head>
-		<meta charset="utf-8">
-		<title>Estilos basicos HTML</title>
-		<style>
-			:root{
-				counter-reset:contador;
-			}
-			
-			[class^="opacity"]{background-color:#252525;color:#fff;}
-			
-			div{
-				padding:16px;
-				counter-increment:contador;
-				opacity:0.counter(contador);
-			}
-			p{
-			font-size:18px;
-			}
 
-			
-		</style>
-	</head>
-	<body>
-		<div class="opacity-.1"><p>valor de opacidad 0.1 </p></div>
-		<div class="opacity-.2"><p>valor de opacidad 0.2 </p></div>
-		<div class="opacity-.3"><p>valor de opacidad 0.3 </p></div>
-		<div class="opacity-.4"><p>valor de opacidad 0.4 </p></div>
-		<div class="opacity-.5"><p>valor de opacidad 0.5 </p></div>
-		<div class="opacity-.6"><p>valor de opacidad 0.6 </p></div>
-		<div class="opacity-.7"><p>valor de opacidad 0.7 </p></div>
-		<div class="opacity-.8"><p>valor de opacidad 0.8 </p></div>
-		<div class="opacity-.9"><p>valor de opacidad 0.9 </p></div>
-		<div class="opacity-10"><p>valor de opacidad 1.0 </p></div>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>Estilos basicos HTML</title>
+	<style>
+		:root {
+			counter-reset: contador;
+		}
+
+		[class^="opacity"] {
+			background-color: #252525;
+			color: #fff;
+		}
+
+		div {
+			padding: 16px;
+			counter-increment: contador;
+			opacity: 0.counter(contador);
+		}
+
+		p {
+			font-size: 18px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="opacity-.1">
+		<p>valor de opacidad 0.1 </p>
+	</div>
+	<div class="opacity-.2">
+		<p>valor de opacidad 0.2 </p>
+	</div>
+	<div class="opacity-.3">
+		<p>valor de opacidad 0.3 </p>
+	</div>
+	<div class="opacity-.4">
+		<p>valor de opacidad 0.4 </p>
+	</div>
+	<div class="opacity-.5">
+		<p>valor de opacidad 0.5 </p>
+	</div>
+	<div class="opacity-.6">
+		<p>valor de opacidad 0.6 </p>
+	</div>
+	<div class="opacity-.7">
+		<p>valor de opacidad 0.7 </p>
+	</div>
+	<div class="opacity-.8">
+		<p>valor de opacidad 0.8 </p>
+	</div>
+	<div class="opacity-.9">
+		<p>valor de opacidad 0.9 </p>
+	</div>
+	<div class="opacity-10">
+		<p>valor de opacidad 1.0 </p>
+	</div>
+</body>
+
 </html>

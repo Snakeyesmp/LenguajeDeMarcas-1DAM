@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE pedidos SYSTEM "Lungo.dtd"> -->
+<pedidos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="file:/C:/Users/admin/Documents/LenguajeDeMarcas/3%C2%BAEvaluacion/XML/06-%20Clase%2024-05-2023/Lungo.xsd">
+  <sucursal codigo="A0000001">
+    <direccion>C/Valladolid, 1</direccion>
+    <direccion>C/Valladolid, 4</direccion>
+    <trabajador>Pepe trabajador</trabajador>
+    <fecha>2022-01-12</fecha>
+    <observacion>Urgente</observacion>
+    <articulo codigo="AAA-111">
+      <unidades>10</unidades>
+      <precio>90</precio>
+      <observaciones>Producto muy frágil</observaciones>
+      <plazo>11</plazo>
+    </articulo>
+    <articulo codigo="AAA-112">
+      <unidades>20</unidades>
+      <precio>10</precio>
+      <observaciones>No apilar más de cinco paquetes</observaciones>
+      <plazo>5</plazo>
+    </articulo>
+  </sucursal>
+  <sucursal codigo="B0000002">
+    <direccion>Avda. Estadio s/n</direccion>
+    <trabajador>Juan Pepito</trabajador>
+    <fecha>2023-02-10</fecha>
+    <articulo codigo="ABC-001">
+      <unidades>5</unidades>
+      <precio>50</precio>
+      <observaciones />
+      <plazo>3</plazo>
+    </articulo>
+  </sucursal>
+</pedidos>

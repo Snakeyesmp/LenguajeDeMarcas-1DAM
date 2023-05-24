@@ -6,7 +6,7 @@ nombre {
 patas {
     color: red;
     font-size: 22px;
-    display:block;
+    display: block;
     background-color: rgb(128, 128, 128);
     width: 100px;
 }

@@ -10,7 +10,8 @@
    <e>
       <f cantidad="8">ffffffff</f>
 
-      <!--g puede aparecer varias veces.-->
+      <!--g
+      puede aparecer varias veces.-->
 
       <g cantidad="5">ggggg</g>
       <g cantidad="2">gg</g>

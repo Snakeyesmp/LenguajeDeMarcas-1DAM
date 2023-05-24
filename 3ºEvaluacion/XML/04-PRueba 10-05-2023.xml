@@ -2,7 +2,7 @@
 <!DOCTYPE prueba [
     <!ELEMENT prueba (a)>
     <!ELEMENT a (#PCDATA)>
-    <!ATTLIST prueba codid (P0 | P1 | P2 | P3 | P4 | P5) "P0"> <!-- UN ID NO PUEDE SER DE TIPO ENUMERADO, HABÍA QUE QUITAR ELA
+    <!ATTLIST prueba codid (P0 | P1 | P2 | P3 | P4 | P5) "P0"> <!-- UN ID NO PUEDE SER DE TIPO ENUMERADO, HABÍA QUE QUITAR LA
     PALABRA ID DE LA ETIQUETA-->
 ]>
 

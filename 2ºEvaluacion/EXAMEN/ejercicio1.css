@@ -1,19 +1,19 @@
-p:first-child{
-	font-family:cursive;
+p:first-child {
+	font-family: cursive;
 }
 
-span:first-of-type{
-	font-family:georgia;
+span:first-of-type {
+	font-family: georgia;
 }
 
-.tercero{
-	font-family:fantasy;
+.tercero {
+	font-family: fantasy;
 }
 
-p:nth-child(4){
-	font-family:"Times New Roman";
+p:nth-child(4) {
+	font-family: "Times New Roman";
 }
 
-p:last-child{
-	font-family:monospace;
+p:last-child {
+	font-family: monospace;
 }

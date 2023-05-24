@@ -3,7 +3,10 @@
     <!ELEMENT persona (nombre,nacimiento,direccion,varon)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT nacimiento EMPTY>
-    <!ATTLIST nacimiento dia CDATA #REQUIRED mes CDATA #REQUIRED anyo CDATA #REQUIRED>
+    <!ATTLIST nacimiento
+        dia CDATA #REQUIRED
+        mes CDATA #REQUIRED
+        anyo CDATA #REQUIRED>
     <!ELEMENT direccion (calle,poblacion,provincia,cpostal)>
     <!ELEMENT calle (#PCDATA)>
     <!ELEMENT poblacion (#PCDATA)>
@@ -14,23 +17,13 @@
 ]>
 
 <persona>
-    <nombre>
-        Juan Pardo
-    </nombre>
+    <nombre> Juan Pardo </nombre>
     <nacimiento dia="10" mes="Abril" anyo="1982"></nacimiento>
     <direccion>
-        <calle>
-            caoba,1
-        </calle>
-        <poblacion>
-            Madrid
-        </poblacion>
-        <provincia>
-            Madrid
-        </provincia>
-        <cpostal>
-            28005
-        </cpostal>
+        <calle> caoba,1 </calle>
+        <poblacion> Madrid </poblacion>
+        <provincia> Madrid </provincia>
+        <cpostal> 28005 </cpostal>
     </direccion>
 
     <varon></varon>
